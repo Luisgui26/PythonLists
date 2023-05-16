@@ -16,6 +16,6 @@ print(lista)
 
 item = int(input('Informe um número para buscar na lista: '))
 if busca(lista, item):
-    print('O número está contido na lista')
+    print(f'O número {item} está contido na lista')
 else:
     print(f'O número {item} não está contido na lista')
